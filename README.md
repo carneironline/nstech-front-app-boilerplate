@@ -19,9 +19,9 @@ Este projeto é um **boilerplate completo para aplicações frontend modernas** 
 Este template foi projetado para trabalhar perfeitamente com os pacotes do [nstech-front-monorepo](https://github.com/carneironline/nstech-front-monorepo). Você pode facilmente instalar qualquer um dos seguintes pacotes:
 
 - **@ns-tech/config-eslint**: Configuração padronizada do ESLint
-- **@ns-tech/config-prettier**: Configuração padronizada do Prettier  
+- **@ns-tech/config-prettier**: Configuração padronizada do Prettier
 - **@ns-tech/config-tsconfig**: Configuração base do TypeScript
-- **@nstech/config-i18n**: Sistema de internacionalização com i18next
+- **@ns-tech/config-i18n**: Sistema de internacionalização com i18next
 - **@ns-tech/react-base**: Hooks React utilitários (useDebounce, useLocalStorage)
 - **@ns-tech/ui**: Sistema de design de componentes UI (em desenvolvimento)
 
@@ -34,7 +34,7 @@ Para instruções detalhadas de instalação, consulte o [Guia de Instalação](
 pnpm add @ns-tech/config-eslint @ns-tech/config-prettier @ns-tech/config-tsconfig --save-dev
 
 # Pacotes de produção
-pnpm add @ns-tech/react-base @nstech/config-i18n
+pnpm add @ns-tech/react-base @ns-tech/config-i18n
 
 # Dependências peer necessárias
 pnpm add react eslint eslint-plugin-react prettier typescript --save-dev
@@ -130,7 +130,7 @@ Para navegação SPA, importe o componente `Link` do `@tanstack/react-router`:
 import { Link } from '@tanstack/react-router'
 
 // Uso em componentes
-<Link to="/nova-rota">Ir para Nova Rota</Link>
+;<Link to='/nova-rota'>Ir para Nova Rota</Link>
 ```
 
 ### Layout da Aplicação
@@ -187,8 +187,8 @@ function SearchComponent() {
   return (
     <input
       value={query}
-      onChange={(e) => setQuery(e.target.value)}
-      placeholder="Digite para buscar..."
+      onChange={e => setQuery(e.target.value)}
+      placeholder='Digite para buscar...'
     />
   )
 }
@@ -203,7 +203,7 @@ Este projeto usa [TailwindCSS v4](https://tailwindcss.com/) para estilização, 
 ```tsx
 function Button({ children }) {
   return (
-    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+    <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
       {children}
     </button>
   )

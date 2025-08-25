@@ -1,0 +1,6 @@
+{
+  "greeting": "Olá, {{name}}!",
+  "welcome": "Bem-vindo ao dashboard",
+  "learn": "Aprenda",
+  "button_switch_language": "Mudar idioma"
+}

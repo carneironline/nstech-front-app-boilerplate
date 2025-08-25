@@ -1,0 +1,3 @@
+{
+  "extends": ["@ns-tech/config-eslint"]
+}
