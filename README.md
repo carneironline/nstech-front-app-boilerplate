@@ -288,6 +288,7 @@ O projeto inclui arquivos prefixados com `demo` que podem ser removidos com segu
 - [Vitest](https://vitest.dev)
 - [T3 Env](https://env.t3.gg)
 - [Guia NS-Tech Monorepo](https://github.com/carneironline/nstech-front-monorepo/blob/main/INSTALLATION_GUIDE.md)
+- **[Diretrizes Frontend NS-Tech](./DIRETRIZES_FRONTEND.md)**: Padrões e boas práticas completas
 
 ## 🤝 Contribuição
 
